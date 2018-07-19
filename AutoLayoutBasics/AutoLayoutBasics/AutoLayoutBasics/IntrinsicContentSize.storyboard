@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VjO-H0-rRo">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="m4D-z1-zEM">
+            <objects>
+                <viewController id="VjO-H0-rRo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="O0c-qr-x1D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The first label is getting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7al-GH-2x8">
+                                <rect key="frame" x="16" y="52" width="180" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="An even longer label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZD-a6-jcI">
+                                <rect key="frame" x="318" y="52" width="41" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A long label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ju6-e7-IZP">
+                                <rect key="frame" x="212" y="52" width="90" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7al-GH-2x8" firstAttribute="top" secondItem="p1b-Sn-oMa" secondAttribute="top" constant="32" id="DMo-wW-UuV"/>
+                            <constraint firstItem="7al-GH-2x8" firstAttribute="leading" secondItem="p1b-Sn-oMa" secondAttribute="leading" constant="16" id="FAj-bP-v1r"/>
+                            <constraint firstItem="lZD-a6-jcI" firstAttribute="leading" secondItem="ju6-e7-IZP" secondAttribute="trailing" constant="16" id="Hgk-jZ-1B7"/>
+                            <constraint firstItem="lZD-a6-jcI" firstAttribute="top" secondItem="ju6-e7-IZP" secondAttribute="top" id="V6e-dn-qei"/>
+                            <constraint firstItem="ju6-e7-IZP" firstAttribute="top" secondItem="7al-GH-2x8" secondAttribute="top" id="Y2a-uz-hVj"/>
+                            <constraint firstItem="ju6-e7-IZP" firstAttribute="leading" secondItem="7al-GH-2x8" secondAttribute="trailing" constant="16" id="fha-0b-QUd"/>
+                            <constraint firstAttribute="trailing" secondItem="lZD-a6-jcI" secondAttribute="trailing" constant="16" id="xt3-aO-t7j"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="p1b-Sn-oMa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d22-Zo-BzP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148" y="162"/>
+        </scene>
+    </scenes>
+</document>
